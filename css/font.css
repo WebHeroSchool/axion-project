@@ -1,0 +1,9 @@
+@font-face {
+  font-family: GothaPro;
+  src: url(../fonts/GothamProMediumItalic.ttf),
+  	url(../fonts/GothaProBla.otf),
+  	url(../fonts/GothaProBol.otf),
+  	url(../fonts/GothaProLig.otf),
+  	url(../fonts/GothaProMed.otf),
+  	url(../fonts/GothaProReg.otf);
+       }       
