@@ -1,6 +1,6 @@
 body{
 	max-width: 1170px;
-	font-family: GothamPro Arial;
+	font-family: Gotham Pro;
 	margin: 0 auto;
 	background: #E5E5E5;
 }
@@ -21,6 +21,7 @@ margin-left:35.35px;
 margin-left:35.35px;
 font-size: 12px;
 line-height: 11px;
+font-weight: bold;
 text-transform: uppercase;
 color: #000000;
 text-decoration: none;
