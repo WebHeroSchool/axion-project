@@ -48,6 +48,7 @@ form{
 }
 .find-text{
     width: 157px;
+    height: 21px;
     border: none;
 }
 .cart img{
@@ -90,6 +91,7 @@ margin-bottom: 16px;
 .product{
 display: flex;
 justify-content: space-between;
+    margin-bottom: 30px;
 	}
 .product-card{
 	width: 230px;
@@ -104,8 +106,8 @@ justify-content: space-between;
 }
 .card__about{
 font-size: 12px;
-line-height: 11px;
-margin: 8px;
+	line-height: 7px;
+    padding-left: 12px;
 }
 .card__price{
 	font-size: 14px;
@@ -127,4 +129,55 @@ width: 0px;
 height: 100.18px;
 opacity: 0.2;
 border: 1px solid #000000;
+}
+.video{
+	width: 1030px;
+height: 494px;
+background:#000;
+    margin-bottom: 76px;
+}
+.video__player{
+	display: inline-block;
+	width: 628px;
+	height: 345px;
+	border: 8px solid #ccc;
+	float: left;
+	margin: 66px 33px;
+}
+.video__box{
+	color:#fff;
+    padding: 136px 0 0 8px;
+    display: inline-block;
+
+}
+.video h2{
+	width: 265.57px;
+	height: 55px;
+text-align: justify;
+font-size: 22px;
+line-height: 27px;
+font-weight: bold;
+}
+.video p{
+	width: 266px;
+height: 99px;
+	font-size: 14px;
+
+line-height: 17px;
+ margin: 0;
+
+}
+.conteiner__button p{
+font-size: 12px;
+line-height: 11px;
+text-transform: uppercase;
+font-weight: bolder;
+padding: 3px;
+}
+.stories{
+	display: flex;
+	justify-content: space-around;
+}
+.stories__card{
+	width: 307px;
 }
