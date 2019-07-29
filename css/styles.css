@@ -1,10 +1,11 @@
 body{
-	width: 1170px;
+	max-width: 1170px;
 	font-family: Gotham Pro;
 	background: #FFFFFF;
 }
-h1, h2, h3{
+h1, h2{
 text-transform: uppercase;
+margin: 0;
 }
 header{
 width: 100%;
@@ -68,6 +69,7 @@ height: 86.94px;
 padding: 65px 59px;
 }
 h1{
+padding-top: 28px;	
 font-size: 30px;
 line-height: 29px;
 color: #FFFFFF;
@@ -79,7 +81,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .conteiner__button a{
-	margin: 6px;
+	margin: 2px;
 }
 h2{
 font-size: 22px;
@@ -140,13 +142,16 @@ background:#000;
 	display: inline-block;
 	width: 628px;
 	height: 345px;
-	border: 8px solid #ccc;
 	float: left;
 	margin: 66px 33px;
 }
+.video__video{
+	padding: 0;
+	border: 8px solid #ccc;
+}
 .video__box{
 	color:#fff;
-    padding: 136px 0 0 8px;
+    padding: 156px 0 0 24px;
     display: inline-block;
 
 }
@@ -176,8 +181,80 @@ padding: 3px;
 }
 .stories{
 	display: flex;
-	justify-content: space-around;
+     justify-content: space-between;
+    padding-top: 25px;
+        margin-bottom: 85px;	
 }
 .stories__card{
 	width: 307px;
+}
+h3{
+	margin: 0;
+    padding: 32px 0 6px 0px;
+    font-size: 18px;
+    line-height: 17px;
+}
+.stories__card p{
+	display: inline;
+	font-size: 14px;
+
+}
+data{
+	font-size: 12px;
+line-height: 17px;
+opacity: 0.3;
+float: right;
+font-weight: bold;
+}
+.stories__card-button{
+	padding-top: 12px;
+}
+.stories__card-button p{
+	text-transform: uppercase;
+	font-size: 12px;
+line-height: 11px;
+font-weight: bold;
+}
+.stories__card-button a{
+	padding:8px;
+}
+.gallery{
+	    margin-bottom: 78px;
+
+}
+.gallery__text{
+	display: block;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 17px;
+	text-transform: uppercase;
+	opacity: 0.3;
+	text-align: right;
+}
+.gallery__hashtag{
+	display: flex;
+}
+.footer{
+	max-width: 1170px;
+	background: #000;
+	display: flex; 
+	justify-content:center;
+	color: #fff;
+}
+.footer__card{
+	display: flex;
+	flex-direction: column;
+
+}
+h4{
+	margin: 0;
+	font-size: 12px;
+line-height: 11px;
+
+}
+.footer__card a{
+text-decoration: none;
+font-size: 12px;
+line-height: 11px;
+color: #fff;
 }
