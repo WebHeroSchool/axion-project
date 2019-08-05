@@ -1,324 +1,318 @@
-.common{
-	max-width: 1170px;
-	font-family: Gotham Pro, Arial, sans-serif;
-	background: #fff;
+.common {
+  max-width: 1170px;
+  font-family: Gotham Pro, Arial, sans-serif;
+  background: #fff;
 }
-.link{
-	text-decoration: none;
-	transition: .2s all;
+
+.link {
+  text-decoration: none;
+  transition: .2s all;
 }
-.link:hover{
-	cursor: pointer;
-    text-shadow: 0 10px 5px #c0c0c0;
+.link:hover {
+  cursor: pointer;
+  text-shadow: 0 10px 5px #c0c0c0;
 }
-.header{
-	width: 100%;
-	height: 95.79px;
-	padding: 0;
+.conteiner {
+  width: 1030px;
+  margin: 0 auto;
 }
-.conteiner{
-	width: 1030px;
-	margin:0 auto;
+.header {
+  width: 100%;
+  height: 96px;
+  padding: 0;
 }
-.menu{
-	 display: flex;
-	 justify-content: space-between;
-	 text-align: justify;
-	 align-items: center;
-	 padding-top: 13px; 
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  align-items: center;
+  padding-top: 13px; 
 }
-.menu__title:not(:first-child){
-	padding-left: 22px;
-	font-size: 12px;
-	line-height: 11px;
-	font-weight: bold;
-	text-transform: uppercase;
-	color: #000000;
-	text-decoration: none;
+.menu__title:not(:first-child) {
+  padding-left :22px;
+  font-size: 12px;
+  line-height: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
 }
-.logo{
-	width: 55px;
-	height: 55px;
-	padding-right: 10px;
+.menu__title:nth-child(6) {
+margin-right: 179px;
 }
-.logo-img{
-	margin: 0;
+.logo {
+  width: 55px;
+  height: 55px;
+  padding-right: 10px;
+}
+.logo-img {
+  margin :0;
 } 
-.form-search{
-	margin-left: 177.93px;
-	border-bottom: 1px solid #000;
-	width: 176px;
+.form-search {
+  border-bottom: 1px solid #000;
+  width: 176px;
 }
-.find-text{
-    width: 157px;
-    height: 21px;
-    border: none;
+.find-text {
+  width: 157px;
+  height: 21px;
+  border: none;
 }
-.cart{
-	display:block;
-	float: right;
-	margin: 0 auto;
-	padding-left: 4px;
-}
-.first-block__img{
-	background: url(../img/rob-potter-422534-unsplash.png);
-	height: 280px;
-	margin-bottom: 50.76px;
-}
-.first-block__text{
-	width: 137px;
-	height: 86.94px;
-	padding: 65px 59px;
-}
-.first-block__headline{
-	text-transform: uppercase;
-	margin: 0;
-	padding: 25px 0 10px;	
-	font-size: 30px;
-	line-height: 29px;
-	color: #fff;
-}
-.conteiner__button{
-	display: inline-block;
-	font-size: 12px;
-	line-height: 11px;
-	text-transform: uppercase;
-	font-weight: bold;
-	color: #fff;
-}
-.conteiner__button-img{
-	padding-left: 6px;
+.cart {
+  display: block;
+  float: right;
+  margin: 0 auto;
+  padding-left: 4px;
 }
 
-.product__headline{
-	text-transform: uppercase;
-	margin: 0;
-	font-size: 22px;
-	line-height: 21px;
-	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 16px;
+.first-block__img {
+  background: url(../img/rob-potter-422534-unsplash.png);
+  height: 280px;
+  margin-bottom: 51px;
 }
-.product{
-	display: flex;
-	justify-content: space-between;
-    margin-bottom: 30px;
-	}
-.product-card{
-	width: 230px;
-	height: 261px;
-	position: relative;
+.first-block__text {
+  width: 137px;
+  height: 87px;
+  padding: 65px 59px;
 }
-.product-card__link{
-	color:#000;
-	}
-.card__img{
-	width:185.86px;
-	height: 183px;
-	margin-left: 26px;
-	margin-bottom: 10px;
+.first-block__headline {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 25px 0 10px;	
+  font-size: 30px;
+  line-height: 29px;
+  color: #fff;
 }
-.card__about{
-	font-size: 12px;
-	line-height: 7px;
-    padding-left: 12px;
+.conteiner__button {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
 }
-.card__price{
-	font-size: 14px;
-	line-height: 8px;
-	font-weight:bold;
-	padding-left: 13px;
-}
-.card__circ{
-	position: absolute;
-    right: 8px;
-    bottom: 22px;
-}
-.card__circ img{
-	padding: 2px;
-}
-.card__line{
-	margin-top: 43px;
-	width: 0px;
-	height: 100.18px;
-	opacity: 0.2;
-	border: 1px solid #000000;
+.conteiner__button-img {
+  padding-left: 6px;
 }
 
-.video{
-	width: 1030px;
-	height: 494px;
-	background:#000;
-    margin-bottom: 76px;
+.product__headline {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 22px;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 16px;
 }
-.video__player{
-	display: inline-block;
-	width: 628px;
-	height: 345px;
-	float: left;
-	margin: 66px 33px;
+.product {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
-.video__video{
-	padding: 0;
-	border: 8px solid #ccc;
+.product-card {
+  width: 230px;
+  height: 261px;
+  position: relative;
 }
-.video__box{
-	color:#fff;
-    padding: 130px 0 0 24px;
-    display: inline-block;
+.product-card__link {
+  color: #000;
 }
-.video__box-headline{
-	width: 265.57px;
-	height: 55px;
-	text-align: justify;
-	font-size: 22px;
-	line-height: 27px;
-	font-weight: bold;
-	text-transform: uppercase;
+.card__img {
+  width: 186px;
+  height: 183px;
+  margin-left: 26px;
+  margin-bottom: 10px;
 }
-.video__box-text{
-	width: 266px;
-	height: 99px;
-	font-size: 14px;
-	line-height: 17px;
-	margin:0; 
+.card__about {
+  font-size: 12px;
+  line-height: 7px;
+  padding-left: 12px;
 }
-
-.stories__headline{
-	height: 45px;
-	text-align: center;
-	font-size: 22px;
-	line-height: 27px;
-	font-weight: bold;
-	text-transform: uppercase;
+.card__price {
+  font-size: 14px;
+  line-height: 8px;
+  font-weight: bold;
+  padding-left: 13px;
 }
-.stories{
-	display: flex;
-    justify-content: space-between;
-    margin-bottom: 65px;	
+.card__circ {
+  position: absolute;
+  right: 8px;
+  bottom: 22px;
 }
-.stories__card-img{
-margin-bottom: 5px;
+.card__circ-img {
+  padding: 2px;
 }
-.stories__card{
-	width: 307px;
-}
-.stories__card-headline{
-	margin: 0;
-    padding: 26px 0 6px 0px;
-    font-size: 18px;
-    line-height: 17px;
-}
-.stories__card-text{
-	display: inline;
-	font-size: 14px;
-}
-.stories__card-button{
-	padding: 12px 0;
-}
-.stories__card-link{
-	font-size: 12px;
-	line-height: 11px;
-	font-weight: bold;
-	text-transform: uppercase;
-	padding-top: 12px;
-	color: #000;
-}
-.stories__card-date{
-	font-size: 12px;
-	line-height: 17px;
-	opacity: 0.3;
-	float: right;
-	font-weight: bold;
+.card__line {
+  height :100px;
+  padding-top: 43px;
 }
 
-.gallery{
-	 margin-bottom: 78px;
+.video {
+  width: 1030px;
+  height: 494px;
+  background: #000;
+  margin-bottom: 76px;
+}
+.video__player {
+  display: block;
+  width: 628px;
+  height: 345px;
+  float: left;
+  margin: 66px 33px;
+}
+.video__video {
+  padding: 0;
+  border: 8px solid #ccc;
+}
+.video__box {
+  color: #fff;
+  padding: 130px 0 0 24px;
+  display: inline-block;
+}
+.video__box-headline {
+  width: 266px;
+  height: 55px;
+  text-align: justify;
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.video__box-text {
+  width: 266px;
+  height: 99px;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0; 
+}
 
+.stories__headline {
+  height: 45px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-.gallery__text{
-	display: block;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 17px;
-	text-transform: uppercase;
-	opacity: 0.3;
-	text-align: right;
-	margin-bottom:8px;
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 65px;
 }
-.gallery__hashtag{
-	display: flex;
+.stories__card-img {
+  margin-bottom: 5px;
 }
-.footer-common{
-	max-width: 1170px;
-	background: #000;
-	margin: 0 auto;
-	padding-bottom: 1px;
+.stories__card {
+  width: 307px;
 }
-.footer{
-	display: flex; 
-	justify-content:center;
-	color: #fff;
+.stories__card-headline {
+  margin: 0;
+  padding: 26px 0 6px 0px;
+  font-size: 18px;
+  line-height: 17px;
 }
-.footer__card{
-	display: flex;
-	flex-direction: column;
-	padding: 24px 35px 0px 15px;
-    margin: 23px 0 38px 25px;
+.stories__card-text {
+  display: inline;
+  font-size: 14px;
+}
+.stories__card-button {
+  padding: 12px 0;
+}
+.stories__card-link {
+  font-size: 12px;
+  line-height: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 12px;
+  color: #000;
+}
+.stories__card-date {
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: bold;
+  opacity: .3;
+  float: right;
+}
 
+.gallery {
+  margin-bottom: 78px;
 }
-.footer__card:nth-child(2){
-	padding-left: 32px;
-	padding-right: 12px;	
+.gallery__text {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 17px;
+  text-transform: uppercase;
+  opacity: .3;
+  text-align: right;
+  margin-bottom: 8px;
+}
+.gallery__hashtag {
+  display: flex;
 }
 
-.foter__headline{
-	margin: 0;
-	margin-right: 20px;
-	font-size: 12px;
-	line-height: 11px;
-	padding-top: 25px;
-
+.footer-common {
+  max-width: 1170px;
+  background: #000;
+  margin: 0 auto;
+  padding-bottom: 1px;
 }
-.footer__card-link{
-	text-decoration: none;
-	font-size: 12px;
-	line-height: 11px;
-	color: #fff;
-	padding-top: 8px;
+.footer {
+  display: flex; 
+  justify-content: center;
+  color: #fff;
 }
-.button{
-	display: inline-block;
-	width: 136.57px;
-	height: 25.7px;
-    border: 1px solid;
-    margin: 12px 0 29px 0px;
-    color: #fff;
-	text-align: center;
-    vertical-align:middle;
+.footer__card {
+  display: flex;
+  flex-direction: column;
+  padding: 29px 40px 0 40px;
 }
-.button__text{
-	font-size: 10px;
-	line-height: 10px;
-	font-weight: bold;
-	
+.footer__card:nth-child(2) {
+  padding: 28px 31px 0 83px;
 }
-.button:hover{
-	box-shadow: 0 5px 5px #c0c0c0;
+.foter__headline {
+  font-size: 12px;
+  line-height: 11px;
+  padding-top: 42px;
+  margin: 0;
 }
-.social__link{
-	    margin-right: 21px;
-	    text-decoration: none;
-		transition: .2s all;
+.footer__card-link {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 11px;
+  color: #fff;
+  padding-top: 8px;
 }
-.social__link:hover{
-	box-shadow: 0 5px 5px #c0c0c0;
+.button {
+  display: inline-block;
+  width: 137px;
+  height: 26px;
+  border: 1px solid;
+  margin: 12px 0 29px 0;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
 }
-.footer__text{
-	display: block;
-	font-size: 12px;
-	line-height: 11px;
-	color:#fff;
-	text-align: center;
-	margin: 19px 0 38px 0;
+.button__text {
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: bold;
+}
+.button:hover {
+  box-shadow: 0 5px 5px #c0c0c0;
+}
+.social__link {
+  margin-right: 21px;
+  text-decoration: none;
+  transition: .2s all;
+}
+.social__link:hover {
+  box-shadow: 0 5px 5px #c0c0c0;
+}
+.footer__text {
+  display: block;
+  font-size: 12px;
+  line-height: 11px;
+  color:#fff;
+  text-align: center;
+  padding: 55px 0 33px 0;
 }
