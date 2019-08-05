@@ -30,7 +30,7 @@
   padding-top: 13px; 
 }
 .menu__title:not(:first-child) {
-  padding-left :22px;
+  padding-left: 22px;
   font-size: 12px;
   line-height: 11px;
   font-weight: bold;
@@ -39,15 +39,15 @@
   text-decoration: none;
 }
 .menu__title:nth-child(6) {
-margin-right: 179px;
+  margin-right: 179px;
 }
 .logo {
   width: 55px;
   height: 55px;
-  padding-right: 10px;
+  margin-right: 10px;
 }
 .logo-img {
-  margin :0;
+  margin: 0;
 } 
 .form-search {
   border-bottom: 1px solid #000;
@@ -142,7 +142,7 @@ margin-right: 179px;
   padding: 2px;
 }
 .card__line {
-  height :100px;
+  height: 100px;
   padding-top: 43px;
 }
 
@@ -165,7 +165,7 @@ margin-right: 179px;
 }
 .video__box {
   color: #fff;
-  padding: 130px 0 0 24px;
+  padding: 134px 0 0 24px;
   display: inline-block;
 }
 .video__box-headline {
@@ -312,7 +312,7 @@ margin-right: 179px;
   display: block;
   font-size: 12px;
   line-height: 11px;
-  color:#fff;
+  color: #fff;
   text-align: center;
   padding: 55px 0 33px 0;
 }
