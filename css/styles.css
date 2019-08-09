@@ -2,6 +2,7 @@
   max-width: 1170px;
   font-family: Gotham Pro, Arial, sans-serif;
   background: #fff;
+  margin: 0 auto;
 }
 
 .link {
@@ -154,12 +155,13 @@
 }
 .video__player {
   display: block;
-  width: 628px;
-  height: 345px;
+  width:630px;
   float: left;
-  margin: 66px 33px;
+  padding: 66px 33px;
 }
 .video__video {
+  width:628px;
+  height:345px;
   padding: 0;
   border: 8px solid #ccc;
 }
