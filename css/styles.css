@@ -44,18 +44,17 @@
 .menu__burger-line {
   display: block;
   position: absolute;
-  height: 9px;
+  height: 8px;
   width: 100%;
   background: #000;
-  border-radius: 9px;
   left: 0;
   transform: rotate(0deg);
   transition: .25s ease-in-out;
 }
 .menu__burger-line:nth-child(1) {
-  top: 13;
+  top: 0;
 }
-.menu__burger-line:nth-child(2), .menu__burger-line:nth-child(3) {
+.menu__burger-line:nth-child(2) {
   top: 13px;
 }
 .menu__links {
@@ -93,7 +92,7 @@
 }
 
 .first-block__img {
-  background: url(../img/rob-potter-422534-unsplash.png);
+  background: url(../img/rob-potter-422534-unsplash.png) no-repeat;
   height: 280px;
   margin-bottom: 51px;
 }
@@ -124,11 +123,10 @@
 
 .product__headline {
   text-transform: uppercase;
-  margin: 0;
   font-size: 22px;
   line-height: 21px;
   text-align: center;
-  margin-bottom: 16px;
+  margin: 0 0 16px 0;
 }
 .product {
   display: flex;
@@ -193,10 +191,12 @@
 }
 .video__box {
   color: #fff;
-  padding: 134px 0 0 24px;
+  padding: 154px 0 0 24px;
   display: inline-block;
 }
 .video__box-headline {
+  margin: 0;
+  padding-bottom: 15px;
   width: 266px;
   height: 55px;
   text-align: justify;
@@ -210,6 +210,7 @@
   height: 99px;
   font-size: 14px;
   line-height: 17px;
+  font-weight: lighter;
   margin: 0; 
 }
 
@@ -230,7 +231,7 @@
   margin-bottom: 5px;
 }
 .stories__card {
-  width: 307px;
+  width: 303px;
 }
 .stories__card-headline {
   margin: 0;
@@ -241,6 +242,7 @@
 .stories__card-text {
   display: inline;
   font-size: 14px;
+  font-weight: lighter;
 }
 .stories__card-button {
   padding: 12px 0;
@@ -305,6 +307,7 @@
   text-decoration: none;
   font-size: 12px;
   line-height: 11px;
+  font-weight: lighter;
   color: #fff;
   padding-top: 8px;
 }
@@ -338,6 +341,7 @@
   display: block;
   font-size: 12px;
   line-height: 11px;
+  font-weight: lighter;
   color: #fff;
   text-align: center;
   padding: 55px 0 33px 0;
