@@ -28,7 +28,7 @@
   display: block;
   width: 55px;
   height: 55px;
-  background: url(../img/Axion-logo-1.png) no-repeat 50% / cover;
+  background: url(../img/Axion-logo-1.png) no-repeat 15% / cover;
   cursor: pointer;
 } 
 .menu {
@@ -36,15 +36,14 @@
 }
 .menu__burger {
   display: none;
-  width: 41px;
-  height: 6px;
+  width: 61px;
   position: relative;
   cursor: pointer;
 }
 .menu__burger-line {
   display: block;
   position: absolute;
-  height: 8px;
+  height: 9px;
   width: 100%;
   background: #000;
   left: 0;
@@ -55,7 +54,7 @@
   top: 0;
 }
 .menu__burger-line:nth-child(2) {
-  top: 13px;
+  top: 17px;
 }
 .menu__links {
   display: flex;
@@ -151,20 +150,50 @@
   font-size: 12px;
   line-height: 7px;
   padding-left: 12px;
+  font-weight: lighter;
 }
 .card__price {
+  display: inline-block;
   font-size: 14px;
   line-height: 8px;
   font-weight: bold;
   padding-left: 13px;
 }
 .card__circ {
-  position: absolute;
-  right: 8px;
-  bottom: 22px;
+  display: flex;
+  width: 59px;
+  justify-content: space-around;
+  position: relative;
+  bottom: 21px;
+  left: 71%;
 }
-.card__circ-img {
-  padding: 2px;
+.card__circ-circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.gray {
+  background: #C4C4C4;
+}
+.black {
+  background: #0E1211;
+}
+.burgundy {
+  background: #B62E3C;
+}
+.yellow {
+  background: #FDB431;
+
+}
+.orange {
+  background: #E29D69;
+}
+.darcBlue {
+  background: #41479B;
+}
+.blue {
+  background: #257DA9;
+}
 }
 .card__line {
   height: 100px;
@@ -172,26 +201,24 @@
 }
 
 .video {
-  width: 1030px;
-  height: 494px;
   background: #000;
   margin-bottom: 76px;
 }
 .video__player {
   display: block;
-  width: 630px;
+  max-width: 64%;
   float: left;
-  padding: 66px 33px;
+  padding: 67px 30px;
 }
 .video__video {
-  width: 628px;
-  height: 345px;
+  max-width: 96%;
+  height: auto;
   padding: 0;
   border: 8px solid #ccc;
 }
 .video__box {
   color: #fff;
-  padding: 154px 0 0 24px;
+  padding: 154px 0;
   display: inline-block;
 }
 .video__box-headline {
@@ -227,11 +254,13 @@
   justify-content: space-between;
   margin-bottom: 65px;
 }
-.stories__card-img {
-  margin-bottom: 5px;
-}
 .stories__card {
-  width: 303px;
+  display: block;
+  width: 30%;
+}
+.stories__card-img {
+  width: 100%;
+  margin-bottom: 5px;
 }
 .stories__card-headline {
   margin: 0;
@@ -277,8 +306,13 @@
   margin-bottom: 8px;
 }
 .gallery__hashtag {
-  display: flex;
+  display: grid;
+  width: 95%;
+  grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
 }
+.gallery__img:nth-child(8) {
+    display: none;
+  }
 
 .footer-common {
   background: #000;
