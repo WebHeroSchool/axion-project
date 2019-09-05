@@ -22,7 +22,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 29px 0;
+  height: 116px;
 }
 .logo-img {
   display: block;
@@ -72,7 +72,7 @@
   text-decoration: none;
 }
 .menu__links-title:nth-child(5) {
-  margin-right: 179px;
+  margin-right: 19%;
 }
 .form-search {
   border-bottom: 1px solid #000;
@@ -85,9 +85,19 @@
 }
 .cart {
   display: block;
-  float: right;
-  margin: 0 auto;
-  padding-left: 4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 16px;
+  font-size: 9px;
+  color: #fff;
+  background: #000;
+  text-decoration: none;
+  padding: 0;
+}
+.lang {
+  padding-left: 22px;
 }
 
 .first-block__img {
@@ -96,11 +106,12 @@
   margin-bottom: 51px;
 }
 .first-block__text {
-  width: 137px;
-  height: 87px;
+  display: block;
+  width: 50%;
   padding: 65px 59px;
 }
 .first-block__headline {
+  width: 195px;
   text-transform: uppercase;
   margin: 0;
   padding: 25px 0 10px;	
@@ -134,38 +145,38 @@
 }
 .product-card {
   width: 230px;
-  height: 261px;
-  position: relative;
 }
 .product-card__link {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
   color: #000;
 }
 .card__img {
   width: 186px;
   height: 183px;
-  padding-left: 26px;
-  margin-bottom: 10px;
+  align-self: center;
+  margin-bottom: 23px
 }
 .card__about {
   font-size: 12px;
   line-height: 7px;
-  padding-left: 12px;
-  font-weight: lighter;
+  margin: 0;
+}
+.product-card__price{
+  display: flex;
+  justify-content: space-between;
 }
 .card__price {
-  display: inline-block;
   font-size: 14px;
   line-height: 8px;
   font-weight: bold;
-  padding-left: 13px;
 }
 .card__circ {
   display: flex;
   width: 59px;
   justify-content: space-around;
-  position: relative;
-  bottom: 21px;
-  left: 71%;
+  align-items: center;
 }
 .card__circ-circle {
   width: 8px;
@@ -194,32 +205,31 @@
 .blue {
   background: #257DA9;
 }
-}
 .card__line {
   height: 100px;
   padding-top: 43px;
 }
 
 .video {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
   background: #000;
   margin-bottom: 76px;
 }
 .video__player {
-  display: block;
-  max-width: 64%;
-  float: left;
-  padding: 67px 30px;
+  width: 64%;
+  padding: 6% 0;
 }
 .video__video {
-  max-width: 96%;
+  width: 100%;
   height: auto;
   padding: 0;
   border: 8px solid #ccc;
 }
 .video__box {
   color: #fff;
-  padding: 154px 0;
-  display: inline-block;
+  align-self: center;
 }
 .video__box-headline {
   margin: 0;
@@ -255,6 +265,8 @@
   margin-bottom: 65px;
 }
 .stories__card {
+  display: flex;
+  flex-direction: column;
   display: block;
   width: 30%;
 }
