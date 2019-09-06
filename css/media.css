@@ -358,6 +358,9 @@
   .video__player {
     max-width: 80%;
   }
+   .video::before {
+    height: 1354px;
+  }
 }
 
 @media screen and (max-width: 480px) {
