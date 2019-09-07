@@ -267,7 +267,6 @@
 .stories__card {
   display: flex;
   flex-direction: column;
-  display: block;
   width: 30%;
 }
 .stories__card-img {
@@ -281,11 +280,14 @@
   line-height: 17px;
 }
 .stories__card-text {
-  display: inline;
   font-size: 14px;
   font-weight: lighter;
+  text-align: justify;
 }
 .stories__card-button {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
   padding: 12px 0;
 }
 .stories__card-link {
@@ -293,7 +295,6 @@
   line-height: 11px;
   font-weight: bold;
   text-transform: uppercase;
-  padding-top: 12px;
   color: #000;
 }
 .stories__card-date {
@@ -301,7 +302,6 @@
   line-height: 17px;
   font-weight: bold;
   opacity: .3;
-  float: right;
 }
 
 .gallery {
