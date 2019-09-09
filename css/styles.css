@@ -22,13 +22,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 29px 0;
+  height: 116px;
 }
 .logo-img {
   display: block;
   width: 55px;
   height: 55px;
-  background: url(../img/Axion-logo-1.png) no-repeat 50% / cover;
+  background: url(../img/Axion-logo-1.png) no-repeat 15% / cover;
   cursor: pointer;
 } 
 .menu {
@@ -36,8 +36,7 @@
 }
 .menu__burger {
   display: none;
-  width: 41px;
-  height: 6px;
+  width: 61px;
   position: relative;
   cursor: pointer;
 }
@@ -47,16 +46,15 @@
   height: 9px;
   width: 100%;
   background: #000;
-  border-radius: 9px;
   left: 0;
   transform: rotate(0deg);
   transition: .25s ease-in-out;
 }
 .menu__burger-line:nth-child(1) {
-  top: 13;
+  top: 0;
 }
-.menu__burger-line:nth-child(2), .menu__burger-line:nth-child(3) {
-  top: 13px;
+.menu__burger-line:nth-child(2) {
+  top: 17px;
 }
 .menu__links {
   display: flex;
@@ -74,7 +72,7 @@
   text-decoration: none;
 }
 .menu__links-title:nth-child(5) {
-  margin-right: 179px;
+  margin-right: 19%;
 }
 .form-search {
   border-bottom: 1px solid #000;
@@ -87,22 +85,33 @@
 }
 .cart {
   display: block;
-  float: right;
-  margin: 0 auto;
-  padding-left: 4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 16px;
+  font-size: 9px;
+  color: #fff;
+  background: #000;
+  text-decoration: none;
+  padding: 0;
+}
+.lang {
+  padding-left: 22px;
 }
 
 .first-block__img {
-  background: url(../img/rob-potter-422534-unsplash.png);
+  background: url(../img/rob-potter-422534-unsplash.png) no-repeat;
   height: 280px;
   margin-bottom: 51px;
 }
 .first-block__text {
-  width: 137px;
-  height: 87px;
+  display: block;
+  width: 50%;
   padding: 65px 59px;
 }
 .first-block__headline {
+  width: 195px;
   text-transform: uppercase;
   margin: 0;
   padding: 25px 0 10px;	
@@ -124,11 +133,10 @@
 
 .product__headline {
   text-transform: uppercase;
-  margin: 0;
   font-size: 22px;
   line-height: 21px;
   text-align: center;
-  margin-bottom: 16px;
+  margin: 0 0 16px 0;
 }
 .product {
   display: flex;
@@ -137,36 +145,66 @@
 }
 .product-card {
   width: 230px;
-  height: 261px;
-  position: relative;
 }
 .product-card__link {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
   color: #000;
 }
 .card__img {
   width: 186px;
   height: 183px;
-  padding-left: 26px;
-  margin-bottom: 10px;
+  align-self: center;
+  margin-bottom: 23px
 }
 .card__about {
   font-size: 12px;
   line-height: 7px;
-  padding-left: 12px;
+  margin: 0;
+}
+.product-card__price{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 33px;
 }
 .card__price {
   font-size: 14px;
   line-height: 8px;
   font-weight: bold;
-  padding-left: 13px;
 }
 .card__circ {
-  position: absolute;
-  right: 8px;
-  bottom: 22px;
+  display: flex;
+  width: 59px;
+  justify-content: space-around;
+  align-items: center;
 }
-.card__circ-img {
-  padding: 2px;
+.card__circ-circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.gray {
+  background: #C4C4C4;
+}
+.black {
+  background: #0E1211;
+}
+.burgundy {
+  background: #B62E3C;
+}
+.yellow {
+  background: #FDB431;
+
+}
+.orange {
+  background: #E29D69;
+}
+.darcBlue {
+  background: #41479B;
+}
+.blue {
+  background: #257DA9;
 }
 .card__line {
   height: 100px;
@@ -174,29 +212,29 @@
 }
 
 .video {
-  width: 1030px;
-  height: 494px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
   background: #000;
   margin-bottom: 76px;
 }
 .video__player {
-  display: block;
-  width: 630px;
-  float: left;
-  padding: 66px 33px;
+  width: 64%;
+  padding: 6% 0;
 }
 .video__video {
-  width: 628px;
-  height: 345px;
+  width: 100%;
+  height: auto;
   padding: 0;
   border: 8px solid #ccc;
 }
 .video__box {
   color: #fff;
-  padding: 134px 0 0 24px;
-  display: inline-block;
+  align-self: center;
 }
 .video__box-headline {
+  margin: 0;
+  padding-bottom: 15px;
   width: 266px;
   height: 55px;
   text-align: justify;
@@ -210,6 +248,7 @@
   height: 99px;
   font-size: 14px;
   line-height: 17px;
+  font-weight: lighter;
   margin: 0; 
 }
 
@@ -226,11 +265,14 @@
   justify-content: space-between;
   margin-bottom: 65px;
 }
-.stories__card-img {
-  margin-bottom: 5px;
-}
 .stories__card {
-  width: 307px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.stories__card-img {
+  width: 100%;
+  margin-bottom: 5px;
 }
 .stories__card-headline {
   margin: 0;
@@ -239,10 +281,14 @@
   line-height: 17px;
 }
 .stories__card-text {
-  display: inline;
   font-size: 14px;
+  font-weight: lighter;
+  text-align: justify;
 }
 .stories__card-button {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
   padding: 12px 0;
 }
 .stories__card-link {
@@ -250,7 +296,6 @@
   line-height: 11px;
   font-weight: bold;
   text-transform: uppercase;
-  padding-top: 12px;
   color: #000;
 }
 .stories__card-date {
@@ -258,7 +303,6 @@
   line-height: 17px;
   font-weight: bold;
   opacity: .3;
-  float: right;
 }
 
 .gallery {
@@ -275,36 +319,44 @@
   margin-bottom: 8px;
 }
 .gallery__hashtag {
-  display: flex;
+  display: grid;
+  width: 95%;
+  grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
 }
+.gallery__img {
+  width: 100%;
+}
+.gallery__img:nth-child(8) {
+    display: none;
+  }
 
 .footer-common {
   background: #000;
   padding-bottom: 1px;
 }
 .footer {
-  display: flex; 
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
   color: #fff;
+  width: 66%;
+  padding-top: 65px;
+  margin: 0 auto;
 }
 .footer__card {
   display: flex;
   flex-direction: column;
-  padding: 29px 40px 0 40px;
+  width: 23%;
 }
-.footer__card:nth-child(2) {
-  padding: 28px 31px 0 83px;
-}
-.foter__headline {
+.footer__headline {
   font-size: 12px;
   line-height: 11px;
-  padding-top: 42px;
   margin: 0;
 }
 .footer__card-link {
   text-decoration: none;
   font-size: 12px;
   line-height: 11px;
+  font-weight: lighter;
   color: #fff;
   padding-top: 8px;
 }
@@ -338,6 +390,7 @@
   display: block;
   font-size: 12px;
   line-height: 11px;
+  font-weight: lighter;
   color: #fff;
   text-align: center;
   padding: 55px 0 33px 0;
