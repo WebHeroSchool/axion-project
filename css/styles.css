@@ -166,6 +166,7 @@
 .product-card__price{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 33px;
 }
 .card__price {
   font-size: 14px;
@@ -322,6 +323,9 @@
   width: 95%;
   grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
 }
+.gallery__img {
+  width: 100%;
+}
 .gallery__img:nth-child(8) {
     display: none;
   }
@@ -331,22 +335,21 @@
   padding-bottom: 1px;
 }
 .footer {
-  display: flex; 
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
   color: #fff;
+  width: 66%;
+  padding-top: 65px;
+  margin: 0 auto;
 }
 .footer__card {
   display: flex;
   flex-direction: column;
-  padding: 29px 40px 0 40px;
+  width: 23%;
 }
-.footer__card:nth-child(2) {
-  padding: 28px 31px 0 83px;
-}
-.foter__headline {
+.footer__headline {
   font-size: 12px;
   line-height: 11px;
-  padding-top: 42px;
   margin: 0;
 }
 .footer__card-link {
